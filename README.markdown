@@ -20,19 +20,16 @@ To run this extension, you’ll need your own **Google Gemini API key** and to f
 4. **Important Security Tip**:
    - Go to [Google Cloud Console](https://console.cloud.google.com/).
    - Find your new API key.
-   - Click **Restrict key** and set **API restrictions** to:
-     - **Generative Language API** (or **Gemini API**, if listed).
+
 
 ### Step 2: Clone the Repository
 
 1. Open a terminal and run:
 
    ```bash
-   git clone https://github.com/YourGitHubUsername/YourRepoName.git
-   cd YourRepoName
+   git clone https://github.com/srniraula/gemini-1.5-flash-dictionary-extension.git
+   cd gemini-1.5-flash-dictionary-extension
    ```
-
-2. Replace `YourGitHubUsername` and `YourRepoName` with your actual GitHub details.
 
 ### Step 3: Insert Your API Key
 
@@ -68,3 +65,5 @@ This extension is built for Chromium-based browsers like Brave and Google Chrome
 1. Open any webpage.
 2. Select a word or sentence using your mouse.
 3. After a short pause, a popover will appear near your selection displaying its meaning or explanation from Gemini AI.
+
+But be mindful, the free tier has limitations on the rate of api calls per minutes.
