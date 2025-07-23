@@ -1,0 +1,58 @@
+/* content.css */
+#gemini-meaning-popover {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px 15px;
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    z-index: 99999; /* Ensure it's on top of other content */
+    display: none; /* Hidden by default */
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+    max-height: 200px; /* Optional: Limit height and add scroll */
+    overflow-y: auto; /* Optional: Add scrollbar if content exceeds max-height */
+}
+
+#gemini-meaning-popover p {
+    margin: 0;
+    padding: 0;
+}
+
+#gemini-meaning-popover .loading-spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #3498db;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#gemini-meaning-popover .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+#gemini-meaning-popover .close-button:hover {
+    color: #333;
+}

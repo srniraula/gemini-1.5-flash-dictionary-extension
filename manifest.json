@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Meaning Popover (Contextual)",
+  "version": "1.0",
+  "description": "Displays meaning of selected text directly on the page using AI.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
