@@ -70,6 +70,8 @@ But be mindful, the free tier has limitations on the rate of api calls per minut
 
 ## Demo
 ### Before
-<img width="1000" height="120" alt="image" src="https://github.com/user-attachments/assets/6aeb611e-364e-43c9-b8e3-13b59b5504d7" />
+<img width="1000" height="187" alt="image" src="https://github.com/user-attachments/assets/191af2c0-56c7-428c-b1e6-d26f95e78f17" />
+
 ### After
-<img width="1000" height="120" alt="image" src="https://github.com/user-attachments/assets/b90e19f2-b4de-49ba-98be-18ddd92df125" />
+<img width="1000" height="187" alt="image" src="https://github.com/user-attachments/assets/d8dca02d-091a-4de5-b711-b46d5cb062ad" />
+
