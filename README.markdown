@@ -67,3 +67,9 @@ This extension is built for Chromium-based browsers like Brave and Google Chrome
 3. After a short pause, a popover will appear near your selection displaying its meaning or explanation from Gemini AI.
 
 But be mindful, the free tier has limitations on the rate of api calls per minutes.
+
+## Demo
+### Before
+<img width="1000" height="120" alt="image" src="https://github.com/user-attachments/assets/6aeb611e-364e-43c9-b8e3-13b59b5504d7" />
+### After
+<img width="1000" height="120" alt="image" src="https://github.com/user-attachments/assets/b90e19f2-b4de-49ba-98be-18ddd92df125" />
