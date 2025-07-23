@@ -1,6 +1,6 @@
 # Meaning Popover Browser Extension
 
-A lightweight Brave/Chrome browser extension that displays the meaning of selected text on any webpage using the **Google Gemini AI model**. Get instant definitions or explanations directly as a popover near your selection.
+A lightweight Brave/Chrome browser extension that displays the meaning of selected text on any webpage using the **Google Gemini-2.5 Flash-Lite model**. Get instant definitions or explanations directly as a popover near your selection.
 
 ## Features
 
@@ -27,8 +27,8 @@ To run this extension, you’ll need your own **Google Gemini API key** and to f
 1. Open a terminal and run:
 
    ```bash
-   git clone https://github.com/srniraula/gemini-1.5-flash-dictionary-extension.git
-   cd gemini-1.5-flash-dictionary-extension
+   git clone https://github.com/srniraula/gemini-2.5-flash-lite-dictionary-extension.git
+   cd gemini-2.5-flash-lite-dictionary-extension
    ```
 
 ### Step 3: Insert Your API Key
@@ -66,12 +66,13 @@ This extension is built for Chromium-based browsers like Brave and Google Chrome
 2. Select a word or sentence using your mouse.
 3. After a short pause, a popover will appear near your selection displaying its meaning or explanation from Gemini AI.
 
-But be mindful, the free tier has limitations on the rate of api calls per minutes.
+But be mindful, the free tier has limitations on the rate of api calls. You get 15 Requests Per Minute (RPM) and 1000 Requests Per Day (RPD) with Tokens Per Minute (TPM) of 250000.
 
 ## Demo
 ### Before
 <img width="1000" height="187" alt="image" src="https://github.com/user-attachments/assets/191af2c0-56c7-428c-b1e6-d26f95e78f17" />
 
 ### After
-<img width="1000" height="187" alt="image" src="https://github.com/user-attachments/assets/d8dca02d-091a-4de5-b711-b46d5cb062ad" />
+<img width="859" height="234" alt="image" src="https://github.com/user-attachments/assets/c3eecf6f-123f-4a47-9fcc-7eaf132630ff" />
+
 
